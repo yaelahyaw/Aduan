@@ -1,0 +1,67 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hero{
+  width: 80%;
+  margin: auto;
+}
+
+.navbar{
+  background-color: #0073ff;
+}
+.banner{
+  display: flex;
+  margin-top: 80px;
+}
+
+.left-column,.right-column{
+  flex-basis: 50%;
+}
+
+.right-column img{
+  width: 100%;
+}
+
+.left-column h1{
+  font-size: 80px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.left-column h3{
+  font-size: 25px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+span{
+  color: #0073ff;
+}
+
+ .left-column p{
+   font-size: 14px;
+   color: #999;
+   margin: 50px 0;
+ }
+
+ .btn .button{
+   padding: 7px 30px;
+   margin-right: 20px;
+   outline: none;
+   border: 1px solid #8591f6;
+   border-radius: 20px;
+   cursor: pointer;
+   color: #0073ff;
+   background: transparent;
+ }
+ .btn .button:hover{
+   color: #fff;
+   background: linear-gradient(to right top, #8a8af8, #8591f6, #8297f4, #819df1, #82a2ed, #7ea0eb, #7a9de9, #769be7, #6b91e7, #6287e6, #597de5, #5272e3);
+ }
+
+
+ .btn .primary-btn{
+  
+   color: #fff;
+ }
